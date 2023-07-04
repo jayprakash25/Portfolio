@@ -14,7 +14,8 @@ import {
     
 
     threejs,
-    spotify,
+    mentor,
+    mediatech,
   } from "../assets";
   
    const navLinks = [
@@ -38,15 +39,15 @@ import {
       title: " Full stack Web Developer",
       icon: web,
     },
-    {
-      title: "Social Media Marketing",
-      icon: backend,
-    },
-    {
-      title: "Blockchain Development",
-      icon: creator,
-      sub: 'learning',
-    },
+    // {
+    //   title: "Social Media Marketing",
+    //   icon: backend,
+    // },
+    // {
+    //   title: "Blockchain Development",
+    //   icon: creator,
+    //   sub: 'learning',
+    // },
   ];
   
   const technologies = [
@@ -111,7 +112,7 @@ import {
       iconBg: "#E6DEDD",
       points: [
         "Developing full stack websites using MERN ",
-        "Working as developer at a startup - Mentorrnow"
+        "Developed a website for a startup - MentorHeal.com "
             ],
     },
    
@@ -132,25 +133,69 @@ import {
   
   const projects = [
     {
-      name: "Spotify-clone",
+      name: "MentorHeal",
       description:
-        "A clone-app of spotify",
+        "A website for a startup who are trying to connect people with Mentors for holistic wellness.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "react-context-api",
+          name: "tailwind",
           color: "green-text-gradient",
         },
         {
-          name: "flexbox",
+          name: "firebase",
           color: "pink-text-gradient",
         },
       ],
-      image: spotify,
-      source_code_link: "https://github.com/jayprakash25/Spotify-clone.git",
+      image: mentor,
+      source_code_link: "https://github.com/jayprakash25/MentorHeal.git",
+    },
+    {
+      name: "Media-Tech",
+      description:
+        "A digital agency website.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "green-text-gradient",
+        },
+        
+      ],
+      image: mediatech,
+      source_code_link: "https://github.com/jayprakash25/Media-Tech.git",
+    },
+    {
+      name: "Article-Share",
+      description:
+        "A website where users can share articles and get paid.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "green-text-gradient",
+        },
+        {
+          name: "node.js",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "express.js",
+          color: "blue-text-gradient",
+        },
+        
+      ],
+      image: "",
+      source_code_link: "https://github.com/jayprakash25/ARTICLE-SHARE-FRONTEND.git",
     },
   
   ];

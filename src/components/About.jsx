@@ -38,7 +38,7 @@ const About = () => {
       className='mt-4 text-secondary md:text-[16px] lg:text-[17px] text-[15px] max-w-3xl leading-relaxed '
       variants={fadeIn("","",0.1,1)}
       >
-      I am a full-stack web developer , currently learning Blockchain development to upskill myself from web2 to web3.
+      I am a full-stack web developer , currently learning TensorFlow to get into AIML.
       </motion.p>
       <div className='mt-20 justify-evenly flex flex-wrap gap-10'>
         {services.map((service, index) => (

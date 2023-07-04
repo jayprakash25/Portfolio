@@ -18,9 +18,8 @@ import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
 
 
-import spotify from "./spotify.png"
-// import tripguide from "./tripguide.png";
-
+import mentor from "./mentor.png";
+import mediatech from "./mediatech.png";
 export {
   
   logo,
@@ -40,6 +39,6 @@ export {
   reactjs,
   tailwind,
   threejs,
-
-  spotify,
+  mentor,
+  mediatech,
 };
