@@ -17,11 +17,10 @@ import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
 
-
 import mentor from "./mentor.png";
 import mediatech from "./mediatech.png";
+import venovet from "./venovet.jpeg";
 export {
-  
   logo,
   backend,
   creator,
@@ -41,4 +40,5 @@ export {
   threejs,
   mentor,
   mediatech,
+  venovet,
 };
