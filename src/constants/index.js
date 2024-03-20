@@ -14,6 +14,7 @@ import {
   mentor,
   mediatech,
   venovet,
+  api,
 } from "../assets";
 
 const navLinks = [
@@ -149,7 +150,7 @@ const projects = [
   {
     name: "VENOVET",
     description:
-      "I make Venovet's online presence work smoothly, improving how things move in logistics. I create custom solutions to help businesses succeed in this fast-paced world.",
+      "I make Venovet's online presence work smoothly, improving how things move in logistics.",
     tags: [
       {
         name: "react",
@@ -169,22 +170,28 @@ const projects = [
     source_code_link: "https://github.com/jayprakash25/Venovet.git",
   },
   {
-    name: "Media-Tech",
-    description: "A digital agency website.",
+    name: "Ecommerce-API",
+    description:
+      "This API is designed for developers for integrating e-commerce functionality within their websites.",
     tags: [
       {
-        name: "react",
+        name: "node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "express.js",
         color: "blue-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "green-text-gradient",
+        name: "mongodb",
+        color: "pink-text-gradient",
       },
     ],
-    image: mediatech,
-    view: "https://mediatech.tech/",
-    source_code_link: "https://github.com/jayprakash25/Media-Tech.git",
+    image: api,
+    view: "https://www.venovet.com/",
+    source_code_link: "https://github.com/jayprakash25/Venovet.git",
   },
+
   {
     name: "Article-Share",
     description: "A website where users can share articles and get paid.",

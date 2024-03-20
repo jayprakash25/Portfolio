@@ -20,6 +20,7 @@ import threejs from "./tech/threejs.svg";
 import mentor from "./mentor.png";
 import mediatech from "./mediatech.png";
 import venovet from "./venovet.jpeg";
+import api from "./api.png";
 export {
   logo,
   backend,
@@ -41,4 +42,5 @@ export {
   mentor,
   mediatech,
   venovet,
+  api,
 };
