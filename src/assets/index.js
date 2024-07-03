@@ -21,6 +21,8 @@ import mentor from "./mentor.png";
 import mediatech from "./mediatech.png";
 import venovet from "./venovet.jpeg";
 import api from "./api.png";
+import aipdf from "./aipdf1.jpeg";
+import matrix from "./matrix.jpg";
 export {
   logo,
   backend,
@@ -43,4 +45,6 @@ export {
   mediatech,
   venovet,
   api,
+  aipdf,
+  matrix,
 };
