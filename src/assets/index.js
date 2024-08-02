@@ -23,8 +23,10 @@ import venovet from "./venovet.jpeg";
 import api from "./api.png";
 import aipdf from "./aipdf1.jpeg";
 import matrix from "./matrix.jpg";
+import sc from "./sc.png";
 export {
   logo,
+  sc,
   backend,
   creator,
   mobile,

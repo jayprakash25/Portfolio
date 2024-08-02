@@ -17,6 +17,7 @@ import {
   venovet,
   api,
   aipdf,
+  sc,
 } from "../assets";
 
 const navLinks = [
@@ -127,6 +128,19 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Shadow Chat",
+    description:
+      "A chat application that allows users send anonymous messages to a user through a link.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: sc,
+    source_code_link: "https://github.com/jayprakash25/ShadowChat",
+  },
   {
     name: "AI-PDF Query",
     description:
