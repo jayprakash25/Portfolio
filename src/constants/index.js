@@ -18,6 +18,7 @@ import {
   api,
   aipdf,
   sc,
+  yd,
 } from "../assets";
 
 const navLinks = [
@@ -128,6 +129,26 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Youtube Detoxify",
+    description: "A web application that detoxifies user's youtube feed.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Vercel KV Redis",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: yd,
+    source_code_link: "https://github.com/jayprakash25/Digital-Detox",
+  },
   {
     name: "Shadow Chat",
     description:

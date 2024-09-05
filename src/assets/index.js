@@ -24,6 +24,7 @@ import api from "./api.png";
 import aipdf from "./aipdf1.jpeg";
 import matrix from "./matrix.jpg";
 import sc from "./sc.png";
+import yd from "./yd.jpeg";
 export {
   logo,
   sc,
@@ -37,6 +38,7 @@ export {
   css,
   figma,
   html,
+  yd,
   javascript,
   mongodb,
   nodejs,
